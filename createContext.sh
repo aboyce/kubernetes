@@ -13,7 +13,7 @@ kubectl config view
 # swap context
 kubectl config use-context [NAME]
 
-# veridy your current context
+# verify your current context
 kubectl config current-context
 
 # at this point, all requests made to the cluster are scoped to the correct namespace
