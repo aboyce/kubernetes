@@ -10,3 +10,6 @@ sudo mount [HOST_IP]:/var/nfs /nfs
 
 # Client - Check it is mounted
 dh -h
+
+# Client - Unmount (move out of the shared directory)
+sudo umount /nfs
