@@ -15,3 +15,6 @@ kubectl get pods
 # When creating a new deployment, in the PersistentVolumeClaim
 # accessModes: ReadWriteMany
 # storageClassName: nfs-client
+
+# To remove the storage class
+kubectl delete storageclass [NAME]
