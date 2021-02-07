@@ -1,15 +1,17 @@
-# Host - Update the servers who can interact
-sudo nano /etc/exports
+# Add the helm repository
+helm repo add ckotzbauer https://ckotzbauer.github.io/helm-charts
 
-# Host - Restart NFS for changes to apply
-sudo systemctl restart nfs-kernel-server
+# Ensure you are in the correct namespace
+helm install --set nfs.server=x.x.x.x --set nfs.path=/exported/path ckotzbauer/nfs-client-provisioner --set image.repository=quay.io/external_storage/nfs-client-provisioner-arm --generate-name
+## full example
+helm install --set nfs.server=[IP_ADDRESS] --set nfs.path=/var/nfs/kubernetes/[NAMESPACE] --set image.repository=quay.io/external_storage/nfs-client-provisioner-arm ckotzbauer/nfs-client-provisioner --set storageClass.name=nfs-client-[NAMESPACE] -n [NAMESPACE] --generate-name
 
-# Client - Mount the share
-sudo mkdir -p /nfs
-sudo mount [HOST_IP]:/var/nfs /nfs
+# Check that the install has worked
+kubectl get storageclass
+# should show the nfs-client
+kubectl get pods
+# should show the pod is running
 
-# Client - Check it is mounted
-dh -h
-
-# Client - Unmount (move out of the shared directory)
-sudo umount /nfs
+# When creating a new deployment, in the PersistentVolumeClaim
+# accessModes: ReadWriteMany
+# storageClassName: nfs-client
