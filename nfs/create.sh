@@ -13,3 +13,7 @@ dh -h
 
 # Client - Unmount (move out of the shared directory)
 sudo umount /nfs
+
+# To ensure other can use the created folders
+sudo chown -R nobody:nogroup /nfs
+sudo chmod 777 /nfs
