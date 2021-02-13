@@ -15,7 +15,7 @@ helm install --set nfs.server=[IP_ADDRESS] \
  --set storageClass.name=nfs-client-[NAMESPACE] \
  ckotzbauer/nfs-client-provisioner \
  -n [NAMESPACE] \
- --
+ --generate-name
 ```
 
 ### Checking the Storage Class
