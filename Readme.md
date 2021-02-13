@@ -1,5 +1,7 @@
 # Kubernetes
 
+[Storage](Storage.md)
+
 [Networking](Networking.md)
 
 [Contexts and `kubectl`](Contexts.md)
