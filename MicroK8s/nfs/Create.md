@@ -1,8 +1,8 @@
-# Creating NFS
+## Creating NFS
 
 _(For development purposes only)_
 
-## Host - Access List
+### Host - Access List
 
 ```bash
 # Update the servers who can interact
@@ -16,7 +16,7 @@ sudo chown -R nobody:nogroup /nfs
 sudo chmod 777 /nfs
 ```
 
-## Client - Mount the share
+### Client - Mount the share
 
 ```bash
 # Create the directory
@@ -29,7 +29,7 @@ sudo mount [HOST_IP]:/var/nfs /nfs
 dh -h
 ```
 
-## Client - Unmount
+### Client - Unmount
 
 ```bash
 # (move out of the shared directory)
