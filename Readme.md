@@ -1,16 +1,24 @@
 # Kubernetes
 
-[Deployments](Deployments.md)
+### [Deployments](Deployments.md)
 
-[Storage](Storage.md)
+### [Storage](Storage.md)
 
-[Networking](Networking.md)
+### [Networking](Networking.md)
 
-[Scaling](Scaling.md)
+### [Scaling](Scaling.md)
 
-[Admission](Admission.md)
+### [Admission](Admission.md)
 
-[Contexts and `kubectl`](Contexts.md)
+#### [Jobs](Jobs.md)
+
+#### [CronJobs](CronJobs.md)
+
+#### [DaemonSets](DaemonSets.md)
+
+#### [StatefulSets](StatefulSets.md)
+
+#### [Contexts and `kubectl`](Contexts.md)
 
 ## MicroK8s on the Raspberry Pi
 
