@@ -8,6 +8,8 @@
 
 [Scaling](Scaling.md)
 
+[Admission](Admission.md)
+
 [Contexts and `kubectl`](Contexts.md)
 
 ## MicroK8s on the Raspberry Pi
