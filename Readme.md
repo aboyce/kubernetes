@@ -6,6 +6,8 @@
 
 [Networking](Networking.md)
 
+[Scaling](Scaling.md)
+
 [Contexts and `kubectl`](Contexts.md)
 
 ## MicroK8s on the Raspberry Pi
