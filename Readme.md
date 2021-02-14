@@ -1,5 +1,7 @@
 # Kubernetes
 
+[Deployments](Deployments.md)
+
 [Storage](Storage.md)
 
 [Networking](Networking.md)
