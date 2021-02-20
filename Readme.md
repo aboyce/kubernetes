@@ -1,5 +1,7 @@
 # Kubernetes
 
+### [Objects](Objects.md)
+
 ### [Deployments](Deployments.md)
 
 ### [Storage](Storage.md)
