@@ -12,6 +12,8 @@
 
 ### [Admission](Admission.md)
 
+### [ConfigMaps](ConfigMaps.md)
+
 #### [Jobs](Jobs.md)
 
 #### [CronJobs](CronJobs.md)
@@ -19,8 +21,6 @@
 #### [DaemonSets](DaemonSets.md)
 
 #### [StatefulSets](StatefulSets.md)
-
-### [ConfigMaps](ConfigMaps.md)
 
 #### [Contexts and `kubectl`](Contexts.md)
 
