@@ -20,6 +20,8 @@
 
 #### [StatefulSets](StatefulSets.md)
 
+### [ConfigMaps](ConfigMaps.md)
+
 #### [Contexts and `kubectl`](Contexts.md)
 
 ## MicroK8s on the Raspberry Pi
