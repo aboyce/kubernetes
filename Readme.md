@@ -16,6 +16,8 @@
 
 ### [SecurityContexts](SecurityContexts.md)
 
+### [Secrets](Secrets.md)
+
 #### [Jobs](Jobs.md)
 
 #### [CronJobs](CronJobs.md)
