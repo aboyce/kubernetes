@@ -30,6 +30,8 @@
 
 #### [DaemonSets](DaemonSets.md)
 
+#### [ReplicaSets](ReplicaSets.md)
+
 #### [StatefulSets](StatefulSets.md)
 
 #### [Contexts and `kubectl`](Contexts.md)
