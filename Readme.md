@@ -18,6 +18,8 @@
 
 #### [Deployments](Deployments.md)
 
+#### [Labels, Selectors, Annotations](Labels.md)
+
 #### [ConfigMaps](ConfigMaps.md)
 
 #### [SecurityContexts](SecurityContexts.md)
