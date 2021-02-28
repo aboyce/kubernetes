@@ -35,3 +35,16 @@ Indicates whether the container is ready to respond to a request. If it fails, t
 ### `startupProbe`
 
 Indicates where the application within the container has started. All other probes are disabled if a startup probe is provided, until it succeeds. If it fails, the kubelet kills the container and is restarted. If there is no startup probe, the default state is `Success`.
+
+Examples probes for a container for an API micro service:
+
+```yaml
+livenessProbe:
+  httpGet:
+    path: /health
+    port: 80
+readinessProbe:
+  httpGet:
+    path: /
+    port: 80
+```
