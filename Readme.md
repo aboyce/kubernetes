@@ -26,6 +26,8 @@
 
 #### [Secrets](Secrets.md)
 
+#### [Probes](Probes.md)
+
 #### [Jobs](Jobs.md)
 
 #### [CronJobs](CronJobs.md)
