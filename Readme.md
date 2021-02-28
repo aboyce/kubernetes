@@ -28,6 +28,8 @@
 
 #### [Probes](Probes.md)
 
+#### [Logging](Logging.md)
+
 #### [Jobs](Jobs.md)
 
 #### [CronJobs](CronJobs.md)
