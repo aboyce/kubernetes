@@ -18,6 +18,8 @@
 
 #### [Deployments](Deployments.md)
 
+#### [NetworkPolices](NetworkPolices.md)
+
 #### [Labels, Selectors, Annotations](Labels.md)
 
 #### [ConfigMaps](ConfigMaps.md)
