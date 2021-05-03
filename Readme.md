@@ -48,6 +48,8 @@
 
 #### [Contexts and `kubectl`](Contexts.md)
 
+#### [Tips](Tips.md)
+
 ## MicroK8s on the Raspberry Pi
 
 [Creating NFS Share](MicroK8s/nfs/Create.md)
