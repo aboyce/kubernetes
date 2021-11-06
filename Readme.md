@@ -14,41 +14,41 @@
 
 ## Specifics
 
-#### [Objects](Objects.md)
+### [Objects](Objects.md)
 
-#### [Deployments](Deployments.md)
+### [Deployments](Deployments.md)
 
-#### [Services](Services.md)
+### [Services](Services.md)
 
-#### [NetworkPolices](NetworkPolices.md)
+### [NetworkPolices](NetworkPolices.md)
 
-#### [Labels, Selectors, Annotations](Labels.md)
+### [Labels, Selectors, Annotations](Labels.md)
 
-#### [ConfigMaps](ConfigMaps.md)
+### [ConfigMaps](ConfigMaps.md)
 
-#### [SecurityContexts](SecurityContexts.md)
+### [SecurityContexts](SecurityContexts.md)
 
-#### [ServiceAccounts](ServiceAccounts.md)
+### [ServiceAccounts](ServiceAccounts.md)
 
-#### [Secrets](Secrets.md)
+### [Secrets](Secrets.md)
 
-#### [Probes](Probes.md)
+### [Probes](Probes.md)
 
-#### [Logging](Logging.md)
+### [Logging](Logging.md)
 
-#### [Jobs](Jobs.md)
+### [Jobs](Jobs.md)
 
-#### [CronJobs](CronJobs.md)
+### [CronJobs](CronJobs.md)
 
-#### [DaemonSets](DaemonSets.md)
+### [DaemonSets](DaemonSets.md)
 
-#### [ReplicaSets](ReplicaSets.md)
+### [ReplicaSets](ReplicaSets.md)
 
-#### [StatefulSets](StatefulSets.md)
+### [StatefulSets](StatefulSets.md)
 
-#### [Contexts and `kubectl`](Contexts.md)
+### [Contexts and `kubectl`](Contexts.md)
 
-#### [Tips](Tips.md)
+### [Tips](Tips.md)
 
 ## MicroK8s on the Raspberry Pi
 
