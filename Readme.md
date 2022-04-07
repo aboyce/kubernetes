@@ -1,57 +1,57 @@
-# Kubernetes
+## Kubernetes
 
-## Big Picture
+### Concepts
 
-### [Storage](Storage.md)
+#### [Storage](./concepts/Storage.md)
 
-### [Networking](Networking.md)
+#### [Networking](./concepts/Networking.md)
 
-### [Scaling](Scaling.md)
+#### [Scaling](./concepts/Scaling.md)
 
-### [Admission](Admission.md)
+#### [Admission](./concepts/Admission.md)
 
-### [Multi-Container Pods](MultiContainerPods.md)
+#### [Multi-Container Pods](./concepts/Multi-Container%20Pods.md)
 
-## Specifics
+### Specifics
 
-### [Objects](Objects.md)
+#### [Objects](./specifics/Objects.md)
 
-### [Deployments](Deployments.md)
+#### [Deployments](./specifics/Deployments.md)
 
-### [Services](Services.md)
+#### [Services](./specifics/Services.md)
 
-### [NetworkPolices](NetworkPolices.md)
+#### [NetworkPolices](./specifics/NetworkPolices.md)
 
-### [Labels, Selectors, Annotations](Labels.md)
+#### [Labels, Selectors, Annotations](./specifics/Labels%2C%20Selectors%2C%20Annotations.md)
 
-### [ConfigMaps](ConfigMaps.md)
+#### [ConfigMaps](./specifics/ConfigMaps.md)
 
-### [SecurityContexts](SecurityContexts.md)
+#### [SecurityContexts](./specifics/SecurityContexts.md)
 
-### [ServiceAccounts](ServiceAccounts.md)
+#### [ServiceAccounts](./specifics/ServiceAccounts.md)
 
-### [Secrets](Secrets.md)
+#### [Secrets](./specifics/Secrets.md)
 
-### [Probes](Probes.md)
+#### [Probes](./specifics/Probes.md)
 
-### [Logging](Logging.md)
+#### [Logging](./specifics/Logging.md)
 
-### [Jobs](Jobs.md)
+#### [Jobs](./specifics/Jobs.md)
 
-### [CronJobs](CronJobs.md)
+#### [CronJobs](./specifics/CronJobs.md)
 
-### [DaemonSets](DaemonSets.md)
+#### [DaemonSets](./specifics/DaemonSets.md)
 
-### [ReplicaSets](ReplicaSets.md)
+#### [ReplicaSets](./specifics/ReplicaSets.md)
 
-### [StatefulSets](StatefulSets.md)
+#### [StatefulSets](./specifics/StatefulSets.md)
 
-### [Contexts and `kubectl`](Contexts.md)
+#### [Contexts and `kubectl`](./specifics/Contexts.md)
 
-### [Tips](Tips.md)
+#### [Tips](./specifics/Tips.md)
 
-## MicroK8s on the Raspberry Pi
+### MicroK8s on the Raspberry Pi
 
-[Creating NFS Share](MicroK8s/nfs/Create.md)
+[Creating NFS Share](./microk8s/nfs/Create.md)
 
 [Using NFS Share in Kubernetes](MicroK8s/nfs/Add.md)
