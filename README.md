@@ -2,56 +2,56 @@
 
 ### Concepts
 
-#### [Storage](./concepts/Storage.md)
+#### [Storage](/concepts/Storage.md)
 
-#### [Networking](./concepts/Networking.md)
+#### [Networking](/concepts/Networking.md)
 
-#### [Scaling](./concepts/Scaling.md)
+#### [Scaling](/concepts/Scaling.md)
 
-#### [Admission](./concepts/Admission.md)
+#### [Admission](/concepts/Admission.md)
 
-#### [Multi-Container Pods](./concepts/Multi-Container%20Pods.md)
+#### [Multi-Container Pods](/concepts/Multi-Container%20Pods.md)
 
 ### Specifics
 
-#### [Objects](./specifics/Objects.md)
+#### [Objects](/specifics/Objects.md)
 
-#### [Deployments](./specifics/Deployments.md)
+#### [Deployments](/specifics/Deployments.md)
 
-#### [Services](./specifics/Services.md)
+#### [Services](/specifics/Services.md)
 
-#### [NetworkPolices](./specifics/NetworkPolices.md)
+#### [NetworkPolices](/specifics/NetworkPolices.md)
 
-#### [Labels, Selectors, Annotations](./specifics/Labels%2C%20Selectors%2C%20Annotations.md)
+#### [Labels, Selectors, Annotations](/specifics/Labels%2C%20Selectors%2C%20Annotations.md)
 
-#### [ConfigMaps](./specifics/ConfigMaps.md)
+#### [ConfigMaps](/specifics/ConfigMaps.md)
 
-#### [SecurityContexts](./specifics/SecurityContexts.md)
+#### [SecurityContexts](/specifics/SecurityContexts.md)
 
-#### [ServiceAccounts](./specifics/ServiceAccounts.md)
+#### [ServiceAccounts](/specifics/ServiceAccounts.md)
 
-#### [Secrets](./specifics/Secrets.md)
+#### [Secrets](/specifics/Secrets.md)
 
-#### [Probes](./specifics/Probes.md)
+#### [Probes](/specifics/Probes.md)
 
-#### [Logging](./specifics/Logging.md)
+#### [Logging](/specifics/Logging.md)
 
-#### [Jobs](./specifics/Jobs.md)
+#### [Jobs](/specifics/Jobs.md)
 
-#### [CronJobs](./specifics/CronJobs.md)
+#### [CronJobs](/specifics/CronJobs.md)
 
-#### [DaemonSets](./specifics/DaemonSets.md)
+#### [DaemonSets](/specifics/DaemonSets.md)
 
-#### [ReplicaSets](./specifics/ReplicaSets.md)
+#### [ReplicaSets](/specifics/ReplicaSets.md)
 
-#### [StatefulSets](./specifics/StatefulSets.md)
+#### [StatefulSets](/specifics/StatefulSets.md)
 
-#### [Contexts and `kubectl`](./specifics/Contexts.md)
+#### [Contexts and `kubectl`](/specifics/Contexts.md)
 
-#### [Tips](./specifics/Tips.md)
+#### [Tips](/specifics/Tips.md)
 
 ### MicroK8s on the Raspberry Pi
 
-[Creating NFS Share](./microk8s/nfs/Create.md)
+##### [Creating NFS Share](/microk8s/nfs/Create.md)
 
-[Using NFS Share in Kubernetes](MicroK8s/nfs/Add.md)
+##### [Using NFS Share in Kubernetes](microk8s/nfs/Add.md)
